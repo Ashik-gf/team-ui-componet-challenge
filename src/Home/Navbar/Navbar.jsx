@@ -13,6 +13,11 @@ const Navbar = () => {
       name: "DashBoard",
       pathName: "/",
     },
+    {
+      id: "card",
+      name: "Card",
+      pathName: "/card",
+    },
   ];
   return <div>
     <nav className="flex justify-center items-center space-x-4 my-8">
